@@ -1,0 +1,24 @@
+#content {
+    max-width: 1600px;
+    margin: auto;
+}
+
+nav a {
+    text-align: center;
+} /*remember that higher rank is #id, after .classes and .pseudoclasses:hover and at the end element*/ 
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
