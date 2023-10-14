@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&family=Open+Sans:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #eeb902;
     text-decoration: none;
+    padding: 35px;
 } /*remember that higher rank is #id, after .classes and .pseudoclasses:hover and at the end element*/ 
 
 #hero-msg h1 {
@@ -31,9 +34,14 @@ main section {
 
 body {
     background-color: #1B1B1E;
+    font-family: inclusive-sans, open-sans, Mooli;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #1B1B1E;
+    font-family: Mooli, inclusive-sans, open-sans;
 }
 
 nav a:hover {
@@ -42,12 +50,16 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #1B1B1E;
-    color: #eeb902;
+    background-color: #ADF1D2;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #1B1B1E;
+    background-color: #eeb902;
     color: white;
 }
 
@@ -58,15 +70,22 @@ nav a:hover {
 
 .msg {
     background-color: #1B1B1E;
+    padding: 35px;
 }
 
 footer {
     background-color: #1B1B1E;
     color: #eeb902;
+    line-height: 1.5em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #eeb902;
+    font-family: Mooli, inclusive-sans, open-sans;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -79,6 +98,8 @@ h4 {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -97,6 +118,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -109,4 +131,28 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0px;
+}
+
+.card-img {
+    border: 10px solid #eeb902;
+}
+
+main section img {
+    box-sizing: border-box;
 }
