@@ -29,10 +29,6 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-}
-
 body {
     background-color: #1B1B1E;
     font-family: inclusive-sans, open-sans, Mooli;
