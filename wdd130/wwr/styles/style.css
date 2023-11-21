@@ -286,7 +286,7 @@ the river.html styles begin here*/
 .h2-rivers-rigth, .h2-rivers-left {
     color: #eeb902;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
 }
 
 .rivers-paragraph-right, .rivers-paragraph-left {
@@ -297,15 +297,18 @@ the river.html styles begin here*/
 
 /*the right part is organized here*/
 .h2-rivers-rigth {
-    grid-column: 1/4;
+    grid-column: 1/5;
+    margin-top: 60px;
 }
 
 .rivers-paragraph-right {
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
 .image-rigth {
-    grid-column: 8/4;
+    grid-column: 7/3;
+    width: 500px;
+    height: auto;
 }
 
 /*the left part is organized here*/
@@ -317,9 +320,13 @@ the river.html styles begin here*/
     grid-column: 8/4;
 }
 
-.imgage-left {
-    grid-column: 5/1;
+.image-left {
+    grid-column: 2/3;
+    grid-row: 4/6;
+    width: 500px;
 }
+
+
 
 
 
