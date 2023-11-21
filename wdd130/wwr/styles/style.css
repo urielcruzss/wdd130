@@ -255,7 +255,7 @@ the river.html styles begin here*/
     color: #eeb902;
     font-size: 2em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px, 0, 20px, 0;
+    padding: 20px 0;
 }
 
 #river-higher:hover {
@@ -269,7 +269,7 @@ the river.html styles begin here*/
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin: 50px, 0, 50px, 0;
+    margin: 50px 0;
     border-radius: 5px;
 }
 
