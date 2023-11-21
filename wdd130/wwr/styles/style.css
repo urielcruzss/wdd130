@@ -238,17 +238,105 @@ footer p {
     padding-top: 15px;
 }
 
-*{
-    border:  2px solid white;
-}
-
 /*NOTE:
 the river.html styles begin here*/
 
+/* {
+    border: 2px solid wheat;
+}*/
+
+#h1-rivers {
+    color: #eeb902;
+    text-align: center;
+    padding: 20px;
+}
+
+#river-higher {
+    color: #eeb902;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px, 0, 20px, 0;
+}
+
+#river-higher:hover {
+    background-color: #1B1B1E;
+    color: white;
+}
+
+#book-rivers {
+    background-color: #ADF1D2;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px, 0, 50px, 0;
+    border-radius: 5px;
+}
+
+#book-rivers:hover {
+    background-color: #eeb902;
+    color: white;
+}
+
+#rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.h2-rivers-rigth, .h2-rivers-left {
+    color: #eeb902;
+    text-align: center;
+    margin: 40px;
+}
+
+.rivers-paragraph-right, .rivers-paragraph-left {
+    color: white;
+    text-align: justify;
+    margin: 30px;
+}
+
+/*the right part is organized here*/
+.h2-rivers-rigth {
+    grid-column: 1/4;
+}
+
+.rivers-paragraph-right {
+    grid-column: 1/4;
+}
+
+.image-rigth {
+    grid-column: 8/4;
+}
+
+/*the left part is organized here*/
+.h2-rivers-left {
+    grid-column: 8/4;
+}
+
+.rivers-paragraph-left {
+    grid-column: 8/4;
+}
+
+.imgage-left {
+    grid-column: 5/1;
+}
+
+* {
+    border: 3px solid wheat;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+/* medias queries  start here */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
