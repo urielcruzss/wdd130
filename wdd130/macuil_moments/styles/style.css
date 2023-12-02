@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato&display=swap');
+/*The Index desing*/
+
+/* {
+    border: 3px solid black;
+} */
+
+body {
+    background-color: #c8cbb0;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: lato, helvetica;
+}
+
+#content-mac {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #396E94;
+    font-family: Inter;
+
+}
+
+header img {
+    width: 75%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    margin-left: 10px;
+    align-self: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #eeb902;
+    text-decoration: none;
+    padding: 45px 0 10px 0;
+}
+
+nav a:hover {
+    background-color: #1B1B1E;
+    color: white;
+}
+
+/*Body started */
+
+#container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#jesus-christ {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 350px;
+    }
+
+p {
+    grid-area: 1/2/2/3;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+#fisherman {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#fisherman img {
+    width: 700px;
+    height: 400px;
+}
+
+
+/* Footer begin */
+
+footer {
+    background-color: #396E94;
+    color: #eeb902;
+    line-height: 1.5em;
+    padding: 0px 0px 25px 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #eeb902;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
