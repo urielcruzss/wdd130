@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato&display=swap');
-/*The Index desing*/
+/*The Index desing for three pages start here*/
 
 /* {
     border: 3px solid black;
@@ -54,8 +54,11 @@ nav a:hover {
     background-color: #1B1B1E;
     color: white;
 }
+/* Finsih of Foter */
 
-/*Body started */
+
+
+/*Indez started */
 
 #container {
     display: grid;
@@ -87,16 +90,17 @@ p {
     width: 700px;
     height: 400px;
 }
+/* Finsih of Indez */
 
 
-/* Footer begin */
 
+/* Footer for the four pages start here */
 footer {
     background-color: #396E94;
     color: #eeb902;
     line-height: 1.5em;
     padding: 0px 0px 25px 0;
-    margin-top: 50px;
+    margin-top: 50px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,4 +120,85 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
     margin-bottom: 20px;
+}
+/* Finsih of Foter */
+
+
+
+/*Calendar page, page number 2 start here*/
+ul {
+    list-style-type: none;
+}
+
+#content-calendar {
+    font-family: verdana, sans-serif;
+}
+
+/* Month header*/
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #eeb902;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: darkblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.Weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #396E94;
+}
+
+.Weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #eeb902;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #c8cbb0;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black
+}
+
+.days li .active {
+    padding: 5px;
+    background: #396E94;
+    color: #eeb902 !important
 }
