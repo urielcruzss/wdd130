@@ -136,7 +136,7 @@ ul {
 
 /* Month header*/
 .month {
-    padding: 70px 25px;
+    padding: 80px 0px;
     width: 100%;
     background: #eeb902;
     text-align: center;
@@ -159,17 +159,19 @@ ul {
 .month .prev {
     float: left;
     padding-top: 10px;
+    margin-left: 20px;
 }
 
 .month .next {
     float: right;
     padding-top: 10px;
+    margin-right: 20px;
 }
 
 /* Weekdays (Mon-Sun) */
 .Weekdays {
     margin: 0;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #396E94;
 }
 
@@ -192,13 +194,17 @@ ul {
     display: inline-block;
     width: 13.6%;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 100px;
     font-size: 20px;
-    color: black
+    color: black;
 }
 
 .days li .active {
     padding: 5px;
     background: #396E94;
     color: #eeb902 !important
+}
+
+h3 {
+    text-align: center;
 }
