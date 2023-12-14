@@ -220,6 +220,13 @@ h3 {
     color: #eeb902;
 }
 
+#activities a {
+    color: #396E94;
+}
+
+#activities a:hover {
+    background-color: #eeb902;
+}
 
 /* Convertion-stories start here*/
 h1 {
