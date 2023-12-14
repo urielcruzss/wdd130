@@ -222,20 +222,24 @@ h3 {
 
 
 /* Convertion-stories start here*/
+h1 {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
 
-button {
-    border: 0;
+#share-story {
+    border: 5px;
     color: white;
     padding: 14px 28px;
     cursor: pointer;
     border-radius: 5px;
-}
-
-#share-story {
+    margin: 0px 400px 150px 400px;
     background-color: #eeb902;
     border: 3px solid #396E94;
+    text-align: center;
 }
 
 #share-story:hover {
     background-color: #396E94;
+    color: wheat;
 }
