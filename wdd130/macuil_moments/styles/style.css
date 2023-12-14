@@ -219,3 +219,23 @@ h3 {
     background-color: #396E94;
     color: #eeb902;
 }
+
+
+/* Convertion-stories start here*/
+
+button {
+    border: 0;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#share-story {
+    background-color: #eeb902;
+    border: 3px solid #396E94;
+}
+
+#share-story:hover {
+    background-color: #396E94;
+}
